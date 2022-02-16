@@ -1,0 +1,10 @@
+.projectsCard {
+  margin-top: 1rem;
+}
+
+.card {
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

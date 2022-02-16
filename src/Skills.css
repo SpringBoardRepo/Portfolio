@@ -1,0 +1,16 @@
+.skill {
+  display: flex;
+  height: 60vh;
+}
+.skills {
+  font-size: large;
+  font-style: italic;
+  font-family: cursive;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .skills {
+    flex-direction: column;
+  }
+}

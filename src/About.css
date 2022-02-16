@@ -1,0 +1,52 @@
+.heading {
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.about {
+  text-align: left;
+  display: flex;
+  height: 50vh;
+}
+
+.about-left {
+  flex: 1;
+  display: flex;
+}
+
+.about-right {
+  flex: 1;
+}
+.a-desc {
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+.about-image {
+  display: flex;
+  width: 60%;
+  height: 50%;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+  }
+  .heading {
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-left {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .a-descSkill {
+    display: none;
+  }
+}
